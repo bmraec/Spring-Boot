@@ -29,6 +29,7 @@ public class ProductTransformer {
 			for (ProductEntity entity : entities) {
 				products.add(transformProductEntity(entity));
 			}
+			return products;
 		}
 		return Collections.emptyList();
 	}
